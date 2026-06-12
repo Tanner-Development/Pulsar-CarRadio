@@ -164,6 +164,7 @@ The current setup provides the framework for audio playback when integrated with
 ## Support
 
 For issues or feature requests, check the script logs and console output for error messages.
+if you need direct support please come into the community discord to recive it, or open a issues tab
 
 ## License
 
