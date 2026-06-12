@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adam Car Radio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="radio-container hidden">
+        <div class="radio-header">
+            <div class="brand-block">
+                <div class="brand-copy">
+                    <div class="brand-name">Adam Car Radio</div>
+                    <div class="brand-title">Vehicle Radio</div>
+                </div>
+            </div>
+            <button class="close-btn" onclick="closeRadio()" aria-label="Close radio">✕</button>
+        </div>
+
+        <div class="radio-content">
+            <div class="top-section">
+                <div class="thumbnail-shell">
+                    <img id="thumbnail"
+                         src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 300 300'%3E%3Crect fill='%23070f1b' width='300' height='300'/%3E%3Ctext x='150' y='160' font-size='96' fill='%231c66ff' text-anchor='middle' dominant-baseline='middle'%3E%E2%99%AA%3C/text%3E%3C/svg%3E"
+                         alt="Video Thumbnail"
+                         class="thumbnail"
+                         onerror="this.onerror=null; this.src='data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 300 300%22%3E%3Crect fill=%22%23070f1b%22 width=%22300%22 height=%22300%22/%3E%3Ctext x=%22150%22 y=%22160%22 font-size=%2296%22 fill=%22%231c66ff%22 text-anchor=%22middle%22 dominant-baseline=%22middle%22%3E%E2%99%AA%3C/text%3E%3C/svg%3E';">
+                </div>
+
+                <div class="main-panel">
+                    <div class="now-playing">
+                        <div class="label-row">
+                            <p class="label">Now Playing</p>
+                            <span class="eq-bars" aria-hidden="true">
+                                <span></span><span></span><span></span>
+                            </span>
+                        </div>
+                        <p id="nowPlayingText" class="text">Nothing playing</p>
+                    </div>
+
+                    <div class="input-wrap">
+                        <span class="input-icon">🔗</span>
+                        <input
+                            type="text"
+                            id="urlInput"
+                            placeholder="https://www.youtube.com/watch?v="
+                            class="url-input"
+                        >
+                    </div>
+
+                    <div class="controls">
+                        <button class="control-btn play-btn" onclick="playRadio()">▶ Play</button>
+                        <button id="pauseBtn" class="control-btn pause-btn" onclick="toggleRadio()">⏸ Pause</button>
+                        <button class="control-btn stop-btn" onclick="stopRadio()">■ Stop</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="volume-control">
+                <div class="volume-icon">🔊</div>
+                <div class="volume-label">Volume</div>
+                <input
+                    id="volumeSlider"
+                    class="volume-slider"
+                    type="range"
+                    min="0"
+                    max="100"
+                    step="1"
+                    value="50"
+                    oninput="changeVolume(this.value)"
+                >
+                <div id="volumeValue" class="volume-value">50%</div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
