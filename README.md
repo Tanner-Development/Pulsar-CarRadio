@@ -195,5 +195,12 @@ if you need direct support please come into the community discord to recive it, 
 
 ## License
 
+<<<<<<< Updated upstream
 All Rights Reserved Tanner development 2026
+=======
+ALL RIGHTS RESERVED - Tanner Development
+This code and associated assets are the intellectual property of Tanner Development.
+Unauthorized use, reproduction, or distribution of this code or its assets is strictly prohibited.
+For inquiries or permissions, please contact Tanner Development directly.
+>>>>>>> Stashed changes
 
