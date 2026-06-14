@@ -1,3 +1,27 @@
+<!-- Adam Car Radio - Vehicle Radio Control Interface -->
+<!--
+MIT License
+
+Copyright (c) 2026 James Peterson
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+-->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -15,7 +39,7 @@
                     <div class="brand-title">Vehicle Radio</div>
                 </div>
             </div>
-            <button class="close-btn" onclick="closeRadio()" aria-label="Close radio">✕</button>
+            <button class="close-btn" onclick="closeRadio()" aria-label="Close radio Control Menu">✕</button>
         </div>
 
         <div class="radio-content">
@@ -25,7 +49,7 @@
                          src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 300 300'%3E%3Crect fill='%23070f1b' width='300' height='300'/%3E%3Ctext x='150' y='160' font-size='96' fill='%231c66ff' text-anchor='middle' dominant-baseline='middle'%3E%E2%99%AA%3C/text%3E%3C/svg%3E"
                          alt="Video Thumbnail"
                          class="thumbnail"
-                         onerror="this.onerror=null; this.src='data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 300 300%22%3E%3Crect fill=%22%23070f1b%22 width=%22300%22 height=%22300%22/%3E%3Ctext x=%22150%22 y=%22160%22 font-size=%2296%22 fill=%22%231c66ff%22 text-anchor=%22middle%22 dominant-baseline=%22middle%22%3E%E2%99%AA%3C/text%3E%3C/svg%3E';">
+                         onerror="this.onerror=null; this.src='data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 300 300%22%3E%3Crect fill=%22%23070f1b%22 width=%22300%22 height=%22300%22/%3E%3Ctext x=%22150%22 y=%22160%22 font-size=%2296%22 fill=%22%231c66ff%22 text-anchor=%22middle%22 dominant-baseline=%22middle%22%3E%E2%99%AA%3C/text%3E%3C/svg%3E';"> 
                 </div>
 
                 <div class="main-panel">
@@ -74,7 +98,18 @@
             </div>
         </div>
     </div>
-
+<!-- Tanner Development Ownership Marker -->
+<div id="td-owner-proof" class="td-owner-proof">
+  This UI / asset was created by Tanner Development.
+</div>
     <script src="script.js"></script>
 </body>
 </html>
+
+<span
+  data-owner="Tanner Development"
+  data-credit="Created by Tanner Development"
+  style="display: none;"
+>
+  Created by Tanner Development
+</span> 

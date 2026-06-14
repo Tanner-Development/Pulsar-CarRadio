@@ -1,3 +1,30 @@
+### disclaimer
+Tanner Development Asset Disclaimer
+
+All scripts, files, code, designs, graphics, logos, or any other digital assets created by Tanner Development are protected and remain the property of Tanner Development unless stated otherwise.
+
+You are not allowed to resell, redistribute, reupload, leak, claim ownership of, or package any Tanner Development script or asset as your own without proper authorization.
+
+Any use, showcase, modification, or redistribution of Tanner Development assets must include proper credit to Tanner Development.
+
+Credit Requirement
+
+Proper credit must clearly state:
+```fix
+- Created by Tanner Development
+```
+Removing credits, renaming the resource to hide ownership, or claiming the work as your own is strictly prohibited.
+
+Resale & Redistribution Policy
+
+Tanner Development assets may not be resold, redistributed, reuploaded, included in paid packages, or included in any other public or private release without explicit written permission from Tanner Development.
+
+With explicit written permission from Tanner Development, an asset may be included, redistributed, or packaged as approved, as long as proper credit is provided and any conditions given by Tanner Development are followed.
+
+Failure to follow these terms may result in removal requests, blacklist actions, or other appropriate action.
+
+
+
 # Car Radio - FiveM Script
 
 A standalone, lightweight car radio script for FiveM with a clean, modern UI. Players can stream YouTube videos as music that all nearby players can hear.
@@ -167,4 +194,25 @@ For issues or feature requests, check the script logs and console output for err
 
 ## License
 
-Free to use and modify for your server.
+MIT License
+
+Copyright (c) 2026 James Peterson
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
